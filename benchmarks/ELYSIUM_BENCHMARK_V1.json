@@ -1,0 +1,31 @@
+{
+  "schema": "ELYSIUM_BENCHMARK_V1",
+  "status": "FROZEN_TEMPLATE_NO_RESULTS",
+  "role": "verification-red-team-optimization-validation",
+  "domains": [
+    "claim_verification",
+    "counterexample_search",
+    "error_detection",
+    "reproduction",
+    "robustness",
+    "calibration"
+  ],
+  "m6_rule": "M6_NEVER_IN_TRAIN",
+  "modes": [
+    "BASE_MODEL_ALONE",
+    "ELYSIUM_PRETRAIN_SCAFFOLD",
+    "ELYSIUM_TRAINED",
+    "ELYSIUM_PLUS_MINIMAL_COALITION"
+  ],
+  "metrics": [
+    "accuracy",
+    "critical_error_rate",
+    "calibration",
+    "transfer",
+    "regression",
+    "latency",
+    "memory_peak",
+    "provenance_completeness"
+  ],
+  "result_status": "NO_EXECUTED_BASELINE_YET"
+}
