@@ -1,0 +1,9 @@
+ELYSIUM M6 PRIVATE RELEASE
+d2_run=36129514044
+d2_audit_sha256=58da91a4a1bff949211c2d3fb74814459cf7c36d509657162c27ba38c313e11e
+source_head=022daf76d3a93e80612aea508e11d36a30ec5694
+classification=M6_COLD_BENCHMARK_SEALED
+deny_training=true
+training_eligible=false
+task_count=72
+domains=6
