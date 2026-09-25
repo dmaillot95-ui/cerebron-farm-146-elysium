@@ -1,0 +1,22 @@
+{
+  "schema": "ELYSIUM_D2_EXACT_RUNTIME_PAIR_AUDIT_V1",
+  "run_id": 36129514044,
+  "status": "PASS",
+  "pair_count": 2,
+  "models": [
+    {
+      "model_id": "HuggingFaceTB/SmolLM3-3B",
+      "revision": "a07cc9a04f16550a088caea529712d1d335b0ac1",
+      "receipt_sha256": "902b7a78c96399353eb2a752eae4362cb5bfbac3090f02b9a854cc27973d5e37"
+    },
+    {
+      "model_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "receipt_sha256": "d85260ee8c9a7aa9cb4db5cadf859e9892eb1cf7a113d0ef611ac2de0be926bb"
+    }
+  ],
+  "independent_evidence_count": 0,
+  "two_models_not_two_independent_proofs": true,
+  "claim_ceiling": "TWO_EXACT_REVISION_RUNTIME_RECEIPTS_PASS_NO_DUAL_CORE_GAIN_CLAIM",
+  "audit_sha256": "58da91a4a1bff949211c2d3fb74814459cf7c36d509657162c27ba38c313e11e"
+}
