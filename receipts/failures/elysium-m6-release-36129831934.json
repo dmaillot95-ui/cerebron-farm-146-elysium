@@ -1,0 +1,14 @@
+{
+  "schema": "ELYSIUM_FAILURE_RECEIPT_V1",
+  "run_id": 36129831934,
+  "date": "2026-09-25",
+  "stage": "M6_PRIVATE_RELEASE",
+  "class": "F_SECURITY_HF_TOKEN_MISSING",
+  "model_failure": false,
+  "data_failure": false,
+  "optimizer_started": false,
+  "private_m6_uploaded": false,
+  "evidence": "GitHub Actions log exposed HF_TOKEN as empty and failed with Illegal header value Bearer.",
+  "next_action": "Run private-HF-dependent M6/D3 from a repository with an already-proven HF_TOKEN secret, keeping F146 binding explicit.",
+  "do_not_repeat": "Do not rerun run 36129831934 unchanged."
+}
